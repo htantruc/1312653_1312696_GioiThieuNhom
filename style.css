@@ -26,6 +26,17 @@ body {
   color: #fff; /*màu chữ*/
   display: inline-block;
 }
+/*định dạng menu khi rê chuột*/
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+/*định dạng ảnh*/
+.img img{
+  float:left;
+  margin-right: 30px;
+  margin-left: 30%;
+}
 
 
 
