@@ -1,0 +1,44 @@
+﻿
+/*Font chữ*/
+body {
+  font-family: sans-serif;
+}
+
+/* định dạng thanh menu*/
+#menu ul {
+  background: #1F568B; /*màu sắc*/
+   /*bỏ các dấu chấm đầu dòng*/
+  text-decoration: none;
+  text-align: center; /*căn giữa*/
+}
+
+#menu li {
+  display: inline-block; /*định dạng cho các tab của menu nằm ngang*/
+  /*kích thước mỗi ô tab*/
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+
+#menu a {
+  text-decoration: none; /*bỏ gạch chân của text*/
+  color: #fff; /*màu chữ*/
+  display: inline-block;
+}
+/*định dạng menu khi rê chuột*/
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+/*định dạng ảnh*/
+.img img{
+  float:left;
+  margin-right: 30px;
+  margin-left: 30%;
+}
+.topmenu{background-color:#4B66A0;}
+.bgleftmenu{background-color: #E9EAED; width:20%; height: 100%; display:inline-block; float:left}
+a:hover{background-color:#DDDDDD;}
+#leftmenu a {text-decoration: none; display:block;line-height: 40px; padding: 2px 1px 1px 16px;}
+
