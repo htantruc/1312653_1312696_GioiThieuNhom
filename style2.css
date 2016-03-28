@@ -2,6 +2,10 @@
 /*Font chữ*/
 body {
   font-family: sans-serif;
+<<<<<<< HEAD
+=======
+  background-image: url(background.jpg);
+>>>>>>> 77be99fa5095e9842e7026cd2ef0e153074537cd
 }
 
 /* định dạng thanh menu*/
@@ -35,10 +39,17 @@ body {
 .img img{
   float:left;
   margin-right: 30px;
+<<<<<<< HEAD
   margin-left: 30%;
 }
 .topmenu{background-color:#4B66A0;}
 .bgleftmenu{background-color: #E9EAED; width:20%; height: 100%; display:inline-block; float:left}
 a:hover{background-color:#DDDDDD;}
 #leftmenu a {text-decoration: none; display:block;line-height: 40px; padding: 2px 1px 1px 16px;}
+=======
+  margin-left: 33%;
+}
+
+
+>>>>>>> 77be99fa5095e9842e7026cd2ef0e153074537cd
 
