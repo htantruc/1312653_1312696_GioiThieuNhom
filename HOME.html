@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style2.css">
+  </head>
+  <body>
+  <!--banner-->
+    <div align = "center"><img src="ban.jpg" width="100%" height="120px"/></div>
+  <!--top menu-->
+    <div id ="menu" class = "topmenu" >
+    <ul>
+      <li><a><strong>Home</strong></font></a></li>
+      <li><a href = "1312653_GioiThieu.html"><strong>1312653</strong></font></a></li>
+      <li><a href = "1312696_gioithieu.html"><strong>1312696</strong></font></a></li>
+    <ul/>
+    </div>
+  <!--left menu-->
+    <div align = "left" class="bgleftmenu" id = "leftmenu">
+        <br><a href="1312653_GioiThieu.html" style="display:block">1312653-Huỳnh Tấn Trực</a></br>
+        <br><a href="1312696_gioithieu.html" style="display:block">1312696-Trần Quang Việt</a></br>
+        <br><a href="https://vi.wikipedia.org/wiki/B%E1%BA%A3ng_c%E1%BB%ADu_ch%C6%B0%C6%A1ng" target="_blank">Bảng cửu chương</a></br>
+        <br><a>Bàn cờ</a></br>
+    </div>
+    <br/>
+  <!--main-->
+  <div style="display:inline-block; width: 80%;"><br/>
+    <div align = "center">
+      <font color="#4B66A0" size ="6"><strong>1312696_1312653 - Trần Quang Việt_Huỳnh Tấn Trực</strong></font><br/>
+    </div>
+    
+    <img src="viet.png" width="200px" height="200px" style="display:block;margin-left:auto;margin-right:auto;"  />
+      <br/>
+      <div class="two-columns">
+    <div style="height: 250; margin-left: 30;float: left;">
+      <a href="1312696_GioiThieu.html" target="_blank"><img align="left" src="viet.png" width="200px" height="200px"/></a>
+      <ul style = "position: relative;left: 20;">
+        <li>MSSV      : 1312696</li>
+        <li>Họ Tên    : Trần Quang Việt</li>
+        <li>Email     : mhoang1234@gmail.com</li>
+        <li>Số điện thoai: 01693474485</li>
+        <li>Vai trò   : nhóm trưởng</li>
+        <li>Sở trường : phân tích, tthiết CSDL, quản trị CSDL</li>
+      </ul>
+    </div>
+    
+    <div style="height: 250; float:right;" >
+      <!--Chèn ảnh-->
+      <a href = "1312653_gioithieu.html" target="_blank"><img align="left" src="img.jpg" width="200" height="200"/></a>
+      <ul style = "position: relative;left: 20;">
+        <li>MSSV: 1312653</li>
+        <li>Họ tên: Huỳnh Tấn Trực</li>
+        <li>Email: htantruc@gmail.com</li>
+        <li>Điện thoại (optional): 0969417378</li>
+        <li>Vai trò: Thành Viên</li>
+        <li>Sở trường: thiết kế giao diện+ phân tích+cài đặt CSDL</li>
+      </ul>
+    </div>
+    </div>
+    </div>
+    <!--box contact-->
+    <div background-color="#E1E9EB" style="position:fixed; bottom:0; left:0; border: 3px solid #F07A0C; width: 270">
+      
+      <div style="background-color:#F07A0C">
+          <div style="display:inline-block; ">Để lại tin nhắn:</div>
+          <div id = "minibt" onclick = "myFucntionmini()" style="float:right;display:none; width:20px;"><img src = "mini.png" width="18" height="18"/></div>
+          <div id = "maxbt" onclick = "myFunctionmax()" style="float:right;width:20px;"><img src = "maxi.png" width="18" height="18"/></div>
+      
+      </div>
+      <form id = "mini" style = "display:none;" name="contact_form" action="#" method="post">
+        <div style="margin-left:20">
+          <label for="email">email của bạn:</label><br />
+          <input name="email" type="text" value="" size="26" placeholder="Email"/><br />
+        </div>
+        <div style="margin-left:20">
+          <label for="message">câu hỏi:</label><br />
+          <textarea name="message" rows="7  " cols="27" placeholder="Enter your question"></textarea><br />
+        </div>
+          <button type="submit" value="Send email" style="margin-left:20">Gửi</button>
+        </form>
+    </div>
+    
+    <script>
+      //function thu nho form contact
+      function myFucntionmini (){ 
+        document.getElementById('mini').style.display = "none";
+        document.getElementById('minibt').style.display = "none";
+        document.getElementById('maxbt').style.display = "inline-block";
+        };
+        
+      //function phong lon form contact
+      function myFunctionmax() {
+        document.getElementById('mini').style.display = "block";
+        document.getElementById('minibt').style.display = "inline-block";
+        document.getElementById('maxbt').style.display = "none";
+      };
+    </script>
+  <!--footer-->
+  </body>
+</html>
