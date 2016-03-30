@@ -37,7 +37,7 @@
 			</ul>
 		</div>
 		
-		<div style="height: 250; margin-left: 30" >
+		<div style="height: 250; margin-left: 30;" >
 			<!--Chèn ảnh-->
 			<a href = "1312696_gioithieu.html"><img align="left" src="img.jpg" width="200" height="200"/></a>
 			<ul style = "position: relative;left: 20">
@@ -55,9 +55,11 @@
 			
 			<div style="background-color:#F07A0C">
 					<div style="display:inline-block; width:280px;">Để lại tin nhắn:</div>
-					<div style="display:inline-block; width:20px;"><img src = "mini.png" width="20" height="20"/></div> 
+					<div id = "minibt" onclick = "myFucntionmini()" style="display:none; width:20px;"><img src = "mini.png" width="20" height="20"/></div>
+					<div id = "maxbt" onclick = "myFunctionmax()" style="width:20px;"><img src = "maxi.png" width="20" height="20"/></div>
+			
 			</div>
-			<form name="contact_form" action="#" method="post">
+			<form id = "mini" style = "display:none;" name="contact_form" action="#" method="post">
 				<div style="margin-left:20">
 					<label for="email">email của bạn:</label><br />
 					<input name="email" type="text" value="" size="30" placeholder="Email"/><br />
@@ -71,7 +73,19 @@
 		</div>
 		
 		<script>
-			
+			//function thu nho form contact
+			function myFucntionmini (){ 
+				document.getElementById('mini').style.display = "none";
+				document.getElementById('minibt').style.display = "none";
+				document.getElementById('maxbt').style.display = "inline-block";
+				};
+				
+			//function phong lon from conttact
+			function myFunctionmax() {
+				document.getElementById('mini').style.display = "block";
+				document.getElementById('minibt').style.display = "inline-block";
+				document.getElementById('maxbt').style.display = "none";
+			};
 		</script>
 	<!--footer-->
 	</body>
