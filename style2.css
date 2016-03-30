@@ -42,10 +42,18 @@ body {
 <<<<<<< HEAD
   margin-left: 30%;
 }
-.topmenu{background-color:#4B66A0;}
+.two-columns{
+  padding: 1em;
+  -moz-column-count: 2;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 1em;
+  column-count: 2;
+  column-gap: 1em;
+}
 .bgleftmenu{background-color: #E9EAED; width:20%; height: 100%; display:inline-block; float:left}
-a:hover{background-color:#DDDDDD;}
-#leftmenu a {text-decoration: none; display:block;line-height: 40px; padding: 2px 1px 1px 16px;}
+
+#leftmenu a {text-decoration: none; display:block;line-height: 20px; padding: 2px 1px 1px 16px;}
 =======
   margin-left: 33%;
 }
