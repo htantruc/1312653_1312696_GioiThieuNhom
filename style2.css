@@ -68,4 +68,11 @@ a:hover{background-color:#DDDDDD;}
     margin-right: 15;
   }
 
- 
+/*==Footer==*/
+#footer {
+ font-size: 85%;
+ border-top: 1px solid #E6E6E6;
+ color: #838383;
+ padding: 1em 3em;
+ margin-left: 39em;
+}
