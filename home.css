@@ -1,30 +1,21 @@
 
-/*Font ch?*/
+/*Font chữ*/
 body {
   font-family: sans-serif;
+
 }
-header{
-    height: 100px; 
-    width:100%;
-}
-footer{
-    height: 100px; 
-    width:100%;
-    position: absolute;
-    left: 0;
-    bottom: 0; 
-}
-/* d?nh d?ng thanh menu*/
+
+/* định dạng thanh menu*/
 #menu ul {
-  background: #1F568B; /*m�u s?c*/
-   /*b? c�c d?u ch?m d?u d�ng*/
+  background: #1F568B; /*màu sắc*/
+   /*bỏ các dấu chấm đầu dòng*/
   text-decoration: none;
-  text-align: center; /*can gi?a*/
+  text-align: center; /*căn giữa*/
 }
 
 #menu li {
-  display: inline-block; /*d?nh d?ng cho c�c tab c?a menu n?m ngang*/
-  /*k�ch thu?c m?i � tab*/
+  display: inline-block; /*định dạng cho các tab của menu nằm ngang*/
+  /*kích thước mỗi ô tab*/
   width: 120px;
   height: 40px;
   line-height: 40px;
@@ -32,28 +23,29 @@ footer{
 }
 
 #menu a {
-  text-decoration: none; /*b? g?ch ch�n c?a text*/
-  color: #fff; /*m�u ch?*/
+  text-decoration: none; /*bỏ gạch chân của text*/
+  color: #fff; /*màu chữ*/
   display: inline-block;
 }
-/*d?nh d?ng menu khi r� chu?t*/
+/*định dạng menu khi rê chuột*/
 #menu a:hover {
   background: #F1F1F1;
   color: #333;
 }
-/*d?nh d?ng ?nh*/
+/*định dạng ảnh*/
 .img img{
   float:left;
   margin-right: 30px;
+
   margin-left: 30%;
 }
 
-#leftmenu a {text-decoration: none; display:block;line-height: 20px; padding: 2px 1px 1px 16px;}
-
-.topmenu{background-color:#4B66A0;}
 .bgleftmenu{background-color: #E9EAED; width:20%; height: 100%; display:inline-block; float:left}
 a:hover{background-color:#DDDDDD;}
 #leftmenu a {text-decoration: none; display:block;line-height: 20px; padding: 1px 1px 1px 16px;}
+
+  
+}
 
 
 
