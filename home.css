@@ -1,0 +1,83 @@
+
+/*Font ch?*/
+body {
+  font-family: sans-serif;
+}
+header{
+    height: 100px; 
+    width:100%;
+}
+footer{
+    height: 100px; 
+    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+}
+/* d?nh d?ng thanh menu*/
+#menu ul {
+  background: #1F568B; /*màu s?c*/
+   /*b? các d?u ch?m d?u dòng*/
+  text-decoration: none;
+  text-align: center; /*can gi?a*/
+}
+
+#menu li {
+  display: inline-block; /*d?nh d?ng cho các tab c?a menu n?m ngang*/
+  /*kích thu?c m?i ô tab*/
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+
+#menu a {
+  text-decoration: none; /*b? g?ch chân c?a text*/
+  color: #fff; /*màu ch?*/
+  display: inline-block;
+}
+/*d?nh d?ng menu khi rê chu?t*/
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+/*d?nh d?ng ?nh*/
+.img img{
+  float:left;
+  margin-right: 30px;
+  margin-left: 30%;
+}
+
+#leftmenu a {text-decoration: none; display:block;line-height: 20px; padding: 2px 1px 1px 16px;}
+
+.topmenu{background-color:#4B66A0;}
+.bgleftmenu{background-color: #E9EAED; width:20%; height: 100%; display:inline-block; float:left}
+a:hover{background-color:#DDDDDD;}
+#leftmenu a {text-decoration: none; display:block;line-height: 20px; padding: 1px 1px 1px 16px;}
+
+
+
+
+#wrapper{
+  height:100%;
+  padding-left: 20px;
+  padding-top: 20px;
+
+}
+
+#Thongtin
+  {
+    margin: auto;
+    float:left;
+    margin-left: -15;
+    margin-right: 15;
+  }
+
+/*==Footer==*/
+#footer {
+ font-size: 85%;
+ border-top: 1px solid #E6E6E6;
+ color: #838383;
+ padding: 1em 3em;
+ margin-left: 39em;
+}
