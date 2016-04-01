@@ -2,12 +2,21 @@
 /*Font chữ*/
 body {
   font-family: sans-serif;
-<<<<<<< HEAD
-=======
-  background-image: url(background.jpg);
->>>>>>> 77be99fa5095e9842e7026cd2ef0e153074537cd
+	background-image : url(bg.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
-
+header{
+    height: 100px; 
+    width:100%;
+}
+footer{
+    height: 100px; 
+    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+}
 /* định dạng thanh menu*/
 #menu ul {
   background: #1F568B; /*màu sắc*/
@@ -54,10 +63,5 @@ body {
 .bgleftmenu{background-color: #E9EAED; width:20%; height: 100%; display:inline-block; float:left}
 
 #leftmenu a {text-decoration: none; display:block;line-height: 20px; padding: 2px 1px 1px 16px;}
-=======
-  margin-left: 33%;
-}
 
-
->>>>>>> 77be99fa5095e9842e7026cd2ef0e153074537cd
-
+.topmenu{background-color:#4B66A0;}

@@ -26,6 +26,7 @@ body {
   text-decoration: none; /*bỏ gạch chân của text*/
   color: #fff; /*màu chữ*/
   display: inline-block;
+  text-align: center;
 }
 /*định dạng menu khi rê chuột*/
 #menu a:hover {
