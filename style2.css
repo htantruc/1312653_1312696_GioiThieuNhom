@@ -56,16 +56,13 @@ footer{
 #leftmenu a {text-decoration: none; display:block;line-height: 20px; padding: 2px 1px 1px 16px;}
 
 .topmenu{background-color:#4B66A0;}
-=======
 .bgleftmenu{background-color: #E9EAED; width:20%; height: 100%; display:inline-block; float:left}
 a:hover{background-color:#DDDDDD;}
 #leftmenu a {text-decoration: none; display:block;line-height: 20px; padding: 1px 1px 1px 16px;}
-=======
   margin-left: 33%;
 }
 
 
->>>>>>> 77be99fa5095e9842e7026cd2ef0e153074537cd
 
 #wrapper{
   height:100%;
@@ -90,4 +87,3 @@ a:hover{background-color:#DDDDDD;}
  padding: 1em 3em;
  margin-left: 39em;
 }
->>>>>>> fee41d9044fdabe19482c0d7d05b3c0ccd4dede7
