@@ -16,7 +16,7 @@
     margin-bottom:5px;
 }
 #left{
-     width: 150px;
+     width: 250px;
      height: 1338px;
      border: 1px solid #CDCDCD;
      float:left;
@@ -24,7 +24,7 @@
      margin-bottom: 5px;
 }
 #content{
-     width: 1041px;
+     width: 941px;
      min-height: 400px;
      border: 1px solid #CDCDCD;
      float:left;
