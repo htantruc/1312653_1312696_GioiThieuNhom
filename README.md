@@ -5,7 +5,7 @@
 Thành viên: **Trần Quang Việt - 1312696**
             **Huỳnh Tấn Trực - 1312653**
 
-URL: **http://myweb.tophottravel.com/HOME.html**
+URL: **http://vtweb.byethost16.com/HOME.html**
 
 ## Yêu cầu
 
