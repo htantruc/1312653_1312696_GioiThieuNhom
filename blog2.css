@@ -1,0 +1,80 @@
+﻿body{
+    font-family: Arial, Tahoma;
+    font-size: 13px;
+}
+ #menu ul {
+  background: #1F568B; /*màu sắc*/
+   /*bỏ các dấu chấm đầu dòng*/
+  text-decoration: none;
+  text-align: center; /*căn giữa*/
+}
+
+#menu li {
+  display: inline-block; /*định dạng cho các tab của menu nằm ngang*/
+  /*kích thước mỗi ô tab*/
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+
+#menu a {
+  text-decoration: none; /*bỏ gạch chân của text*/
+  color: #fff; /*màu chữ*/
+  display: inline-block;
+}
+/*định dạng menu khi rê chuột*/
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+#menu {
+  width: 1000px;
+  height: 30px;
+}
+#main{
+    width: 1000px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#head{
+    height: 100px;
+    background-color: #F5F5F5;
+    
+}
+#head-link{
+     height: 30px;
+     line-height: 10px;
+     margin-bottom:15px;
+     
+}
+#left{
+     width: 150px;
+     height: 1300px;
+     border: 1px solid #CDCDCD;
+     float:left;
+     margin-bottom: 5px;
+}
+#content{
+     width: 600px;
+     min-height: 400px;
+     border: 1px solid #CDCDCD;
+     float:left;
+     margin-left: 5px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+}
+#right{
+     width: 234px;
+     height: 1300px;
+     border: 1px solid #CDCDCD;
+     float:right;
+     margin-bottom: 5px;
+}
+#footer{
+     height: 50px;
+     clear: both;
+     border: 1px solid #CDCDCD;
+     background-color: #F8F8FF;
+}
