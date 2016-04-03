@@ -1,4 +1,4 @@
-# BT-UDPT-1 - *Name of your app*
+# BT-UDPT-1 - *1312653-1312696_GioiThieuNhom*
 
 **1312653-1312696_GioiThieuNhom** là một bài tập 1 tại môn UDPT.
 
@@ -49,7 +49,7 @@ Tạo ảnh GIF với chương trình [LiceCap](http://www.cockos.com/licecap/).
 
 ## License
 
-    Copyright [2016] [rang web bài tập HTML&CSS - 1312653 - 1312696]
+    Copyright [2016] [Trang web bài tập HTML&CSS - 1312653 - 1312696]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
